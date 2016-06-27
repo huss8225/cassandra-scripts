@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 
 for i in `cat $1` ; do nc -vz "$i" 22 ; done
 for i in `cat $1` ; do nc -vz "$i" 7001 ; done
